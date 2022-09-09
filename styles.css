@@ -1,0 +1,19 @@
+body
+{
+    font-family: "Mulish",sans-serif;
+    color: rgba(46, 45, 45, 0.719);
+    font-size: 16px;
+    margin-left: 60;
+    margin-top: 30;
+}
+header
+{
+    display: flex;
+}
+
+header li
+{
+    margin-left: 20;
+  margin-top: 5;
+  font-family: "Mulish",sans-serif;
+}
