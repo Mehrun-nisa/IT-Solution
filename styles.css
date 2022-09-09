@@ -1,19 +1,114 @@
-body
-{
-    font-family: "Mulish",sans-serif;
-    color: rgba(46, 45, 45, 0.719);
-    font-size: 16px;
-    margin-left: 60;
-    margin-top: 30;
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  margin: 0;
 }
-header
-{
-    display: flex;
+header {
+  display: flex;
+}
+/* NavBar BackgroundColor */
+.nav {
+  height: 100px;
+  width: 100%;
+  background-color: #0f3460;
+  background-image: linear-gradient(to right, #0f3460, #25316d);
 }
 
-header li
-{
-    margin-left: 20;
-  margin-top: 5;
-  font-family: "Mulish",sans-serif;
+.nav > .nav-header {
+  display: inline;
+  margin-left: 60;
+  margin-top: 30;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: flex;
+  font-family: "Mulish", sans-serif;
+  float: right;
+  margin: 35px;
+  font-size: 16px;
+}
+/* Button CSS */
+.nav > .nav-links > ul > .btn {
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+  border-color: #fff;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 300px;
+  bottom: 5px;
+  font-size: 16px;
+}
+.nav > .nav-links > ul li a {
+  color: #fff;
+  line-height: 40px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav > .nav-links > ul li {
+  display: inline-block;
+  position: relative;
+  padding: 20;
+  margin-top: -25;
+}
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  /* Mobile Responsive CSS */
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    transition: all 0.3s ease-in-out;
+    overflow-y: hidden;
+    top: 10px;
+    left: 0px;
+  }
+  .nav > .nav-links > ul li a {
+    display: block;
+  }
+  /* Responsive TEXT CSS   */
+  .nav > .nav-links > ul li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20;
+    background-color: #333;
+  }
+  .nav > .nav-links > ul li a {
+    margin-left: 30%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  /* After Responsiveness Bar Height */
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(80vh - 50px);
+    overflow-y: auto;
+  }
 }

@@ -1,54 +1,67 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-<!-- Link for Bootstrap -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Link CSS File -->
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link for Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link CSS File -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div id="logo">
-            <a href="/index.html">
-                <img class="img-fluid" src="/images/logo.png" alt="LOGO" width="150" height="150">
-            </a>
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="./index.html"
+              ><img src="./images/logo.png" alt="LOGO"
+            /></a>
+          </div>
         </div>
-        <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./index.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="./index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="./index.html">CaseStudy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./index.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="./index.html">Contact</a>
-              </li>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <ul>
+            <li><a href="./index.html" target="_blank">Home</a></li>
+            <li><a href="./index.html" target="_blank">Services</a></li>
+            <li><a href="./index.html" target="_blank">About</a></li>
+            <li><a href="./index.html" target="_blank">CaseStudy</a></li>
+            <li><a href="./index.html" target="_blank">Blog</a></li>
+            <li><a href="./index.html" target="_blank">Contact</a></li>
+            <!-- Button -->
+            <button type="button" class="btn btn-outline-light rounded-pill" type="button">
+              Get Free Quote
+            </button>
           </ul>
+        </div>
+      </div>
     </header>
-    <main>
-
-    </main>
-    <footer>
-
-    </footer>
-</body>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
