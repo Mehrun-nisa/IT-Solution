@@ -10,8 +10,8 @@ header {
 .nav {
   height: 100px;
   width: 100%;
-  background-color: #0f3460;
-  background-image: linear-gradient(to right, #0f3460, #25316d);
+  background-color: #25316d;
+  background-image: linear-gradient(to right, #25316d, #231955);
 }
 
 .nav > .nav-header {
@@ -111,4 +111,49 @@ header {
     height: calc(80vh - 50px);
     overflow-y: auto;
   }
+}
+/*...................Hero Content........................... */
+#hero
+{
+    height: 550px;
+    width: 1349px;;
+  background-color: #25316d;
+  background-image: linear-gradient(to right, #25316d, #231955);
+}
+#hero-content h1
+{
+    color: white;
+    font-family: "Mulish", sans-serif;
+    font-size: 50px;
+    padding: 100px 100px;
+}
+#hero-content p
+{
+    color: white;   
+     font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    top: 326px;
+    left: 100px;
+}
+/* Button CSS */
+#hero> #hero-content >.btn {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;           
+    color: #fff;
+    background-image: linear-gradient(#F94892,#FF7F3F);
+    border-color: #F94892;
+    text-align: center;
+    display: block;
+   
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+  }
+  /* Image */
+.img-responsive
+{
+    display: flex;
+    position: relative;
+    left: 181px;
+    bottom: 355px;
 }
