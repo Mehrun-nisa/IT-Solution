@@ -1,3 +1,6 @@
+*{
+    font-family: "Mulish",sans-serif;
+}
 body {
   font-family: "Mulish", sans-serif;
   font-size: 16px;
@@ -156,4 +159,56 @@ header {
     position: relative;
     left: 181px;
     bottom: 355px;
+}
+.lead
+{
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    color: rgb(235, 90, 114);
+    padding-top: 50px;
+}
+.display-4
+{
+    font-family: "Mulish",sans-serif;
+
+}
+.columns
+{
+    height: 350px;
+}
+.columns>.container-fuild
+{
+    padding: 100px;
+}
+#image1
+{
+    padding-bottom: 25px;
+}
+.test {
+    width: 90px;
+    height: 89px;
+    flex: 15px;
+    position: absolute;
+    display: flex;
+    left: 150px;
+    z-index: -1;
+    top: -5px;
+}
+.test1 {
+    width: 90px;
+    height: 89px;
+    flex: 15px;
+    position: absolute;
+    left: 155px;
+    z-index: -1;
+    top: -15px;
+}
+.test2 {
+    width: 90px;
+    height: 89px;
+    flex: 15px;
+    position: absolute;
+    left: 150px;
+    z-index: -1;
+    top: -13px;
 }
