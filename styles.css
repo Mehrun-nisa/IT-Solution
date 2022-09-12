@@ -331,3 +331,43 @@ header {
   top: 100px;
   color: #F94892;
 }
+.col1
+{
+  position: relative;
+    top: -16px;
+}
+/* Section 6 CSS */
+.container-custom {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.con-3 {
+  position: relative;
+  top: -120px;
+}
+.container2 p {
+  margin: 25px 0;
+  max-width: 400px;
+}
+.container2 img{
+      width:80%;
+      padding-left: 10px;
+}
+.container2 h2 {
+  position: absolute;
+  right: 600px;
+  bottom: -3166px;
+}
+.d-flex
+{
+  padding: 39px;
+}
+
+@media(max-width: 767px){ 
+
+  .container-custom {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+}
+/* CSS section 7 */
