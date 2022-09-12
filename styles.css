@@ -317,3 +317,17 @@ header {
   left: 57px;
 }
 /* Section 5 CSS */
+.buss {
+  padding: 35px;
+  margin: 10px;
+}
+.ro1 {
+  padding-top: 83px;
+}
+.btn-req {
+  position: absolute;
+  right: 620px;
+  border-color: #F94892;
+  top: 100px;
+  color: #F94892;
+}
