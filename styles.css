@@ -174,7 +174,7 @@ header {
 }
 .columns
 {
-    height: 350px;
+    height: 600px;
 }
 .columns>.container-fuild
 {
@@ -212,3 +212,108 @@ header {
     z-index: -1;
     top: -13px;
 }
+/* Section 3 CSS */
+
+.section-3 {
+    height: 649px;
+    padding: 33px;
+    width: 1349px;
+    background-color: #EEF1FF;
+}
+
+.col-md-5
+{
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.col-md-5> h1
+{
+    position: relative;
+    top: -95px;
+    right:80px ;
+}
+.connection {
+    color: #eee;
+    position: absolute;
+    right: 390px;
+    top: 111px;
+}
+.connection1 {
+    color: #eee;
+    position: absolute;
+    right: 390px;
+    top: 220px;
+}
+.col-md-5>h4 {
+    padding: 6px;
+}
+/* Button CSS */
+.col-md-5 >.btn {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;           
+    color: #fff;
+    background-image: linear-gradient(#F94892,#FF7F3F);
+    border-color: #F94892;
+    text-align: center;
+    display: block;
+   
+    position: relative;
+    right: 5px;
+    bottom: -5px;
+  }
+  /* @media screen and (max-width: 600px) {
+    .section-3 {
+      height: 100%;
+    }} */
+
+    /* .............Section-4............................ */
+    .portion
+    {
+      
+    background-color: #231955;
+    background-image: linear-gradient(to right, #231955, #25316d);
+    }
+
+    .col-sm {
+      height: 165px;
+      margin: 24px;
+      padding: 24px;
+      color: #eee;
+  }
+  .border>#h1 {
+    padding: 6px;
+    top: 59px;
+    position: relative;
+    color: #eee;
+}
+.sec-4
+{  
+    position: relative;
+    padding: 60px;
+    background-color: #231955;
+  background-image: linear-gradient(to right, #231955, #25316d);
+  color: #eee;
+}
+.IT-services{
+  position: relative;
+  color: #eee;
+    top: 90px;
+
+}
+.container4> .p1
+{
+  position: relative;
+  color: #F94892;
+    top: 90px;
+}
+.a1 {
+  position: absolute;
+  top: 7px;
+  left: 65px;
+}
+.a2 {
+  position: absolute;
+  top: 7px;
+  left: 57px;
+}
+/* Section 5 CSS */
