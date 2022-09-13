@@ -390,3 +390,21 @@ header {
   color: #F94892;
   background-color: white;
 }
+/* Section Footer */
+.page-footer
+{
+  padding: 10px;
+}
+.roo
+{
+  padding:20px;
+}
+.rooow {
+  padding: 37px;
+  margin: -17px;
+  letter-spacing: 5px;
+}
+.contact
+{
+  color: black;
+}
