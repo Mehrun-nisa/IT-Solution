@@ -63,7 +63,7 @@ header {
   display: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -114,6 +114,14 @@ header {
     height: calc(80vh - 50px);
     overflow-y: auto;
   }
+  #hero-content p {
+    color: white;
+    font-family: "Mulish",sans-serif;
+    font-size: 16px;
+    top: 326px;
+    left: 100px;
+    z-index: -1;
+}
 }
 /*...................Hero Content........................... */
 #hero
@@ -175,11 +183,8 @@ header {
 .columns
 {
     height: 600px;
-}
-.columns>.container-fuild
-{
-    padding: 100px;
-}
+padding: 50px;
+  }
 #image1
 {
     padding-bottom: 25px;
@@ -212,6 +217,52 @@ header {
     z-index: -1;
     top: -13px;
 }
+@media screen and (max-width: 800px){
+  .columns>.container-fuild {
+    padding-top: 4px;
+}
+#hero> #hero-content >.btn {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-image: linear-gradient(#F94892,#FF7F3F);
+  border-color: #F94892;
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 100px;
+  bottom: -84px;
+}
+.test1 {
+  width: 90px;
+  height: 89px;
+  flex: 15px;
+  position: absolute;
+  left: 97px;
+  z-index: -1;
+  top: -15px;
+}
+.test {
+  width: 90px;
+  height: 89px;
+  flex: 15px;
+  position: absolute;
+  display: flex;
+  left: 91px;
+  z-index: -1;
+  top: -5px;
+}
+.test2 {
+  width: 90px;
+  height: 89px;
+  flex: 15px;
+  position: absolute;
+  left: 90px;
+  z-index: -1;
+  top: -13px;
+}
+
+}
 /* Section 3 CSS */
 
 .section-3 {
@@ -235,13 +286,13 @@ header {
 .connection {
     color: #eee;
     position: absolute;
-    right: 390px;
+    right: 455px;
     top: 111px;
 }
 .connection1 {
     color: #eee;
     position: absolute;
-    right: 390px;
+    right: 455px;
     top: 220px;
 }
 .col-md-5>h4 {
@@ -261,19 +312,25 @@ header {
     right: 5px;
     bottom: -5px;
   }
-  /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
     .section-3 {
-      height: 100%;
-    }} */
+      width: fit-content;
+    }
+    .connection {
+      color: rgb(238, 238, 238);
+      position: absolute;
+      right: 534px;
+      top: 111px;
+  }
+  .connection1 {
+    color: #eee;
+    position: absolute;
+    right: 531px;
+    top: 220px;
+}
+  }
 
     /* .............Section-4............................ */
-    .portion
-    {
-      
-    background-color: #231955;
-    background-image: linear-gradient(to right, #231955, #25316d);
-    }
-
     .col-sm {
       height: 165px;
       margin: 24px;
@@ -316,6 +373,20 @@ header {
   top: 7px;
   left: 57px;
 }
+
+@media(max-width: 800px){ 
+  .sec-4
+  {    
+      position: inherit;
+    padding: 85px;
+    background-color: #231955;
+    background-image: linear-gradient(to right, #231955, #25316d);
+    color: #eee;
+    margin-top: 456px;
+
+  }
+  
+}
 /* Section 5 CSS */
 .buss {
   padding: 35px;
@@ -336,8 +407,20 @@ header {
   position: relative;
     top: -16px;
 }
+@media(max-width: 800px){ 
+  .btn-req {
+    right: 254px;
+    border-color: #F94892;
+    padding: 8px;
+}
+.para
+{
+      margin: -24px;
+}
+
+  }
 /* Section 6 CSS */
-.container-custom {
+.container {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -356,19 +439,21 @@ header {
 .container2 h2 {
   position: absolute;
   right: 600px;
-  bottom: -3166px;
+  bottom: -3100px;
 }
 .d-flex
 {
   padding: 39px;
 }
 
-@media(max-width: 767px){ 
-
-  .container-custom {
-      padding-top: 50px;
-      padding-bottom: 50px;
+@media(max-width: 800px){ 
+  .container2 h2{
+    padding-left: 122px;
+    display: inline-block;
+    right: 182px;
+    bottom: -5046px;
   }
+    
 }
 /* CSS section 7 */
 .bg { 
@@ -407,4 +492,9 @@ header {
 .contact
 {
   color: black;
+}
+@media(max-width: 800px){ 
+  #video {
+    padding: 128px;
+}
 }
